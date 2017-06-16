@@ -1,0 +1,49 @@
+// The file is part of the pitcher github.com/gruncho/stylestree
+// The base plain scss structure.
+//
+// GPL license (by-sa) 2017, copy, edit and share
+// Run thanks to Sass: CSS width superpowers.
+//
+// @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
+
+@import '../_variables/colors';
+@import '../_variables/typography';
+
+$body-background-color: $color-white;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $body-background-color;
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-secondary-regular;
+  min-height: 100%;
+}
+
+strong {
+  font-weight: $font-weight-secondary-bold;
+}
+
+a {
+  color: inherit;
+}
+
+// scss-lint:disable VendorPrefix
+::-moz-selection {
+  background: $color-primary;
+  color: $color-white;
+}
+// scss-lint:enable VendorPrefix
+
+::selection {
+  background: $color-primary;
+  color: $color-white;
+}

@@ -1,0 +1,37 @@
+// The file is part of the pitcher github.com/gruncho/stylestree
+//
+// Licensed under GPL v3 our later (by-sa) 2017, copy, edit and share
+// Run thanks to Sass: CSS width superpowers.
+//
+// @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
+
+// http://chir.ag/projects/name-that-color/
+//
+// Use the above URL to obtain the name of the hexadecimals,
+// and please, try to order from higher hex value to lower
+// hex value.
+
+$color-white: #fff;
+$color-aqua-haze: #f8fbfb;
+$color-alabaster: #f8f8f8;
+$color-wild-sand: #f6f6f6;
+$color-gallery: #eee;
+$color-mercury-lightest: #ececec;
+$color-mercury-lighter: #e5e5e5;
+$color-mercury: #e1e1e1;
+$color-alto: #d1d1d1;
+$color-nobel: #b6b6b6;
+$color-dove-gray: #666;
+$color-emperor: #545454;
+$color-tundora: #444;
+$color-mine-shaft: #222;
+$color-black: #000;
+$color-blaze-orange: #f60;
+$color-trinidad: #e94f00;
+$color-cornflower-blue: #268fcb;
+
+// Theme variables
+
+$color-primary: null !default;
+$color-primary-faded: null !default;
+$color-secondary: null !default;
