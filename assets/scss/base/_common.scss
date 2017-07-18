@@ -2,7 +2,6 @@
 //
 // Licensed under GPL v3 2017.
 // Run thanks to Sass: CSS width superpowers.
-//
 
 *,
 *::before,
@@ -29,12 +28,10 @@ a {
   color: inherit;
 }
 
-// scss-lint:disable VendorPrefix
 ::-moz-selection {
-  //background:;
+  //basckground:;
   //color:;
 }
-// scss-lint:enable VendorPrefix
 
 ::selection {
   //background:;

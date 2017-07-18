@@ -1,15 +1,13 @@
 // Part of the pitcher github.com/gruncho/stylestree
 //
-// Licensed under GPL v3 2017.
-// Run thanks to Sass: CSS width superpowers.
+// For the full copyright and license information, please view the LICENSE
+// file that was distributed with this source code.
 //
 // @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
 // Definitions
 
-@import './_definitions/animations';
-
-// Reset - Common
+// Base
 
 @import './_base/tags-reset';
 @import './_base/form-reset';
