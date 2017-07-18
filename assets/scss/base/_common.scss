@@ -3,12 +3,6 @@
 // Licensed under GPL v3 2017.
 // Run thanks to Sass: CSS width superpowers.
 //
-// @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
-
-@import '../_variables/colors';
-@import '../_variables/typography';
-
-$body-background-color: $color-white;
 
 *,
 *::before,
@@ -21,14 +15,14 @@ html {
 }
 
 body {
-  background-color: $body-background-color;
-  font-family: $font-family-secondary;
-  font-weight: $font-weight-secondary-regular;
+  //background-color:;
+  //font-family:;
+  //font-weight:;
   min-height: 100%;
 }
 
 strong {
-  font-weight: $font-weight-secondary-bold;
+  //font-weight:;
 }
 
 a {
@@ -37,12 +31,12 @@ a {
 
 // scss-lint:disable VendorPrefix
 ::-moz-selection {
-  background: $color-primary;
-  color: $color-white;
+  //background:;
+  //color:;
 }
 // scss-lint:enable VendorPrefix
 
 ::selection {
-  background: $color-primary;
-  color: $color-white;
+  //background:;
+  //color:;
 }
