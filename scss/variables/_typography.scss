@@ -5,24 +5,12 @@
 //
 // @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
-// Definitions
+// Select typo
 
-// Base
+$helvetica: 'Helvetica, sans-serif';
+$georgia: 'Georgia, serif';
 
-@import './_base/tags-reset';
-@import './_base/form-reset';
-@import './_base/common';
+// Variables
 
-// Swiper
-
-// Svg
-
-// Atoms
-
-// Components
-
-// Compositions
-
-// Layouts
-
-// Pages
+$typo-first: $helvetica;
+$typo-second: $georgia;

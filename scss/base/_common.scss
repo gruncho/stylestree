@@ -3,6 +3,9 @@
 // Licensed under GPL v3 2017.
 // Run thanks to Sass: CSS width superpowers.
 
+@import '../variables/colors';
+@import '../variables/typography';
+
 *,
 *::before,
 *::after {
@@ -14,14 +17,14 @@ html {
 }
 
 body {
-  //background-color:;
-  //font-family:;
-  //font-weight:;
+  background-color: $color-white;
+  font-family: $typo-first;
+  font-weight: normal; // revise typo
   min-height: 100%;
 }
 
 strong {
-  //font-weight:;
+  font-weight: bold; // revise typo
 }
 
 a {
@@ -29,11 +32,11 @@ a {
 }
 
 ::-moz-selection {
-  //basckground:;
-  //color:;
+  background: $corporative-first;
+  color: $color-white;
 }
 
 ::selection {
-  //background:;
-  //color:;
+  background: $corporative-first;
+  color: $color-white;
 }
