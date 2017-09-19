@@ -15,10 +15,15 @@
 
 $color-white: #fff;
 $color-black: #000;
-$robin-egg-blue: #00B8D1; // example corporative
-$science-blue: #005BD1; // example second
+$color-white: #fff;
+$color-black: #000;
+$color-gold: #f4d300;
+$color-gray: rgba(255,255,255,.5);
+$color-robin-egg-blue: #00B8D1; // example corporative
+$color-science-blue: #005BD1; // example second
 
-// corporative
+// corporative (revise "../base/common")"
 
-$corporative-first: $robin-egg-blue;
-$corporative-second: $science-blue;
+$color-coporative: $color-gold; // for example..
+$color-text: $color-black; // Black?
+$body-background: $color-white; 

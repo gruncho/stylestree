@@ -1,7 +1,9 @@
 // Part of the pitcher github.com/gruncho/stylestree
 //
-// Licensed under GPL v3 2017.
-// Run thanks to Sass: CSS width superpowers.
+// For the full copyright and license information, please view the LICENSE
+// file that was distributed with this source code.
+//
+// @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
 @import '../variables/colors';
 @import '../variables/typography';
@@ -18,26 +20,22 @@ html {
 }
 
 body {
-  background-color: $color-white;
-  font-family: $typo-first;
-  font-weight: normal; // revise typo
+  background-color: $body-background;
+  font-family: $first-font-family;
+  font-weight: $first-font-weight-regular; 
   min-height: 100%;
 }
 
 strong {
-  font-weight: bold; // revise typo
+  font-weight: $first-font-weight-bold;
 }
 
 a {
   color: inherit;
 }
 
-::-moz-selection {
-  background: $corporative-first;
-  color: $color-white;
-}
-
+::-moz-selection,
 ::selection {
-  background: $corporative-first;
-  color: $color-white;
+  background: $color-corporative;
+  color: $color-text;
 }
