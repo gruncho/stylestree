@@ -10,7 +10,14 @@
 $helvetica: 'Helvetica, sans-serif';
 $georgia: 'Georgia, serif';
 
-// Variables
+// Font-family (revise "../base/common")"
 
-$typo-first: $helvetica;
-$typo-second: $georgia;
+$first-font-family: $helvetica;
+$second-font-family: $georgia;
+
+// Font-weight (revise "../base/common")"
+
+$first-font-weight-regular: normal;
+$first-font-weight-bold: bold;
+$second-font-weight-regular: normal;
+$second-font-weight-bold: bold;

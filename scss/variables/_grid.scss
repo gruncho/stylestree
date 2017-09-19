@@ -5,10 +5,12 @@
 //
 // @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
-$breakpoints-medium: "only screen and (min-width: 768px)";
-$breakpoints-large: "only screen and (min-width: 1024px)";
-$breakpoints-xlarge: "only screen and (min-width: 1280px)";
-$breakpoints-xxlarge: "only screen and (min-width: 1440px)";
-$breakpoints-xxxlarge: "only screen and (min-width: 1680px)";
+@import 'breakpoints';
+
+$breakpoints-medium: "only screen and (min-width: $size-medium)";
+$breakpoints-large: "only screen and (min-width: $size-large))";
+$breakpoints-xlarge: "only screen and (min-width: $size-xlarge))";
+$breakpoints-xxlarge: "only screen and (min-width: $size-xxlarge))";
+$breakpoints-xxxlarge: "only screen and (min-width: $size-xxxlarge))";
 
 // @media #{$breakpoints-large} {}
