@@ -1,9 +1,31 @@
-# stylestree
-
-El objetivo es crear una infraestructura fácil de editar para lanzar la parte SCSS de un proyecto. Está escrito con SASS y BEM basado en una variante de la metodología 'Atomic design', dividido en:
-
-```
-Atoms > Components > Compositions > Layout > Pages
-```
-
-Trabajando en ello...
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Section spaces</title>
+  <!-- assets -->
+  <link rel="stylesheet" type='text/css' media='all' href="assets/scss/main.css">
+</head>
+<body>
+  <section class="section section--complete section--header">
+    header
+  </section>
+  <section class="section section--wrap">
+    Section wrap
+  </section>
+  <section class="section">
+    Section complete
+  </section>
+  <section class="section section--wrap">
+    Section basic
+  </section>
+  <section class="section">
+    <div class="section--wrap">
+      Section complete + wrap
+    </div>
+  </section>
+  <section class="section section--complete section--footer">
+    footer
+  </section>
+</body>
+</html>

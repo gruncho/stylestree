@@ -5,27 +5,20 @@
 //
 // @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
-// Definitions
-
 // Base
 
 @import 'base/tags-reset';
 @import 'base/form-reset';
 @import 'base/common';
 
-// == variables
+// Variables
 
-// breakpoints
-// colors
-// grid
-// typography
+@import 'variables/colors';
+@import 'variables/section';
+@import 'variables/size';
+@import 'variables/typography';
 
-// atoms
+// Mixins
 
-// logo
-
-// == components
-
-// select
-// input-radio 
-// select-check
+@import 'mixins/aspect-ratio';
+@import 'mixins/flex-grid';

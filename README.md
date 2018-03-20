@@ -1,9 +1,13 @@
-# stylestree
+# 🌳 Style Tree
 
-El objetivo es crear una infraestructura fácil de editar para lanzar la parte SCSS de un proyecto. Está escrito con SASS y BEM basado en una variante de la metodología 'Atomic design', dividido en:
+El objetivo es crear un starter kit, algunas tareas pendientes:
 
-```
-Atoms > Components > Compositions > Layout > Pages
-```
+* Añadir más funciones útiles en `mixins` 
+* Crear un grid con flexbox
+* Correr [stylelint](https://stylelint.io/)
+* Añadir una base de SCSS para formularios
+* Dejar de compilar con SASS y hacerlo con [gulp-postcss](https://github.com/postcss/gulp-postcss)
+* Crear un mini site estático donde salgan resumidas fuentes, colores, tamaños..
+* Añadir recursos (tipografías, colores etc) de ejemplo
 
-Trabajando en ello...
+...
