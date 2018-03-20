@@ -5,20 +5,20 @@
 //
 // @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
-// Definitions
-
 // Base
 
 @import 'base/tags-reset';
 @import 'base/form-reset';
 @import 'base/common';
 
-// Atoms
+// Variables
 
-// Components
+@import 'variables/colors';
+@import 'variables/section';
+@import 'variables/size';
+@import 'variables/typography';
 
-// Compositions
+// Mixins
 
-// Layouts
-
-// Pages
+@import 'mixins/aspect-ratio';
+@import 'mixins/flex-grid';
