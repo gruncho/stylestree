@@ -1,0 +1,11 @@
+.footer {
+  background: $color-black;
+  color: $color-white;
+  font-size: .75rem;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+} 
+
+.footer__content {
+  @extend .row;
+}

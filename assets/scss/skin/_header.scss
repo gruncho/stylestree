@@ -1,0 +1,27 @@
+.header {  
+  @extend .row;
+  
+  background: $color-white;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.header__title {
+  font-family: $font-family-first;
+  font-size: 3rem;
+}
+
+.header__description {
+  color: $color-gray;
+  font-family: $font-family-second;
+  font-size: 1rem;
+  padding-top: .75rem;
+
+  a {
+    color: $color-gray;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}

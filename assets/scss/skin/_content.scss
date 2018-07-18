@@ -1,0 +1,63 @@
+$content-subtitle-font-family: $font-family-second;
+
+.content {
+  @extend .grid-row;
+}
+
+.content__box {
+  @include column(12);
+}
+
+.content__title {
+  color: $color-gray;
+  font-family: $content-subtitle-font-family;
+  font-size: .75rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.content__xxlarge-title,
+.content__xlarge-title,
+.content__large-title,
+.content__medium-title,
+.content__small-title,
+.content__description {
+  padding-bottom: 2rem;
+}
+
+.content__xxlarge-title {
+  font-size: 3rem;
+}
+
+.content__xlarge-title {
+  font-size: 2.5rem;
+}
+
+.content__large-title {
+  font-size: 2rem;
+}
+
+.content__medium-title {
+  font-size: 1.5rem;
+}
+
+.content__small-title {
+  font-size: 1rem;
+}
+
+.content__description {
+  font-size: 1rem;
+  line-height: 1.55rem;
+}
+
+.content__description--mobile {
+  font-size: .85rem;
+  line-height: 1.25rem;
+}
+
+@media #{$breakpoints-large} {
+  .content__box {
+    @include column(6);
+  }
+}

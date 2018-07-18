@@ -1,0 +1,75 @@
+$example-content-padding: 1.5rem;
+
+.example {
+  @extend .row;
+}
+
+.example__content {
+  @extend .grid;
+
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+
+  *:nth-child(odd) {
+    background: #ccc;
+  }
+
+  *:nth-child(even) {
+    background: #999;
+  }
+
+  * {
+    font-size: 1rem;
+    padding-bottom: $example-content-padding;
+    padding-top: $example-content-padding;
+    text-align: center;
+  }
+}
+
+.example1 {
+  @include column(1);
+}
+
+.example2 {
+  @include column(2);
+}
+
+.example3 {
+  @include column(3);
+}
+
+.example4 {
+  @include column(4);
+}
+
+.example5 {
+  @include column(5);
+}
+
+.example6 {
+  @include column(6);
+}
+
+.example7 {
+  @include column(7);
+}
+
+.example8 {
+  @include column(8);
+}
+
+.example9 {
+  @include column(9);
+}
+
+.example10 {
+  @include column(10);
+}
+
+.example11 {
+  @include column(11);
+}
+
+.example12 {
+  @include column(12);
+}

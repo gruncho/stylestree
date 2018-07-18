@@ -1,0 +1,45 @@
+$colors-color-white-border: 1px solid $color-ligth-gray;
+$colors-color-size: 250px;
+
+.colors {
+  @extend .grid-row;
+}
+
+.colors__box {
+  @include column(6);
+}
+
+.colors__color {
+  height: $colors-color-size;
+  max-width: $colors-color-size;
+  width: 100%;
+}
+
+.colors__color--white {
+  background: $color-white;
+  border: $colors-color-white-border;
+}
+
+.colors__color--black {
+  background: $color-black;
+}
+
+.colors__color--corporative {
+  background: $color-corporative;
+}
+
+.colors__color--gray {
+  background: $color-gray;
+}
+
+.colors__text {
+  color: $color-gray;
+  padding-top: .75rem;
+  font-size: .85rem;
+}
+
+@media #{$breakpoints-large} {
+  .colors__box {
+    @include column(3);
+  }
+}

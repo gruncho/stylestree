@@ -5,20 +5,17 @@
 //
 // @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
 
+// Variables
+
+@import 'variables/colors';
+@import 'variables/grid';
+@import 'variables/section';
+@import 'variables/size';
+@import 'variables/fonts';
+
 // Base
 
 @import 'base/tags-reset';
 @import 'base/form-reset';
 @import 'base/common';
 
-// Variables
-
-@import 'variables/colors';
-@import 'variables/section';
-@import 'variables/size';
-@import 'variables/typography';
-
-// Mixins
-
-@import 'mixins/aspect-ratio';
-@import 'mixins/flex-grid';

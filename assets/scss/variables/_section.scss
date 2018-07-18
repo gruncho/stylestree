@@ -1,6 +1,4 @@
-@import 'grid';
-
-$section-padding: 3rem;
+$section-padding: $convivences;
 $section-padding-mobile: $section-padding;
 $section-padding-medium: calc( #{$section-padding} * 1.5 );
 $section-padding-large: calc( #{$section-padding} * 2 );
@@ -9,49 +7,41 @@ $section-padding-xxlarge: calc( #{$section-padding} * 3 );
 $section-padding-xxxlarge: calc( #{$section-padding} * 3.5 );
 
 .section {
-  padding: $section-padding-mobile 0;
-}
-
-.section--wrap {
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 90%;
+  padding-bottom: $section-padding-mobile;
+  padding-top: $section-padding-mobile;
 }
 
 @media #{$breakpoints-medium} {
   .section {
-    padding: $section-padding-medium 0;
+    padding-bottom: $section-padding-medium;
+    padding-top: $section-padding-medium;
   }
 }
 
 @media #{$breakpoints-large} {
   .section {
-    padding: $section-padding-large 0;
+    padding-bottom: $section-padding-large;
+    padding-top: $section-padding-large;
   }
 }
 
 @media #{$breakpoints-xlarge} {
   .section {
-    padding: $section-padding-xlarge 0;
+    padding-bottom: $section-padding-xlarge;
+    padding-top: $section-padding-xlarge;
   }
 }
 
 @media #{$breakpoints-xxlarge} {
   .section {
-    padding: $section-padding-xxlarge 0;
+    padding-bottom: $section-padding-xxlarge;
+    padding-top: $section-padding-xxlarge;
   }
 }
 
 @media #{$breakpoints-xxxlarge} {
   .section {
-    padding: $section-padding-xxxlarge 0;
+    padding-bottom: $section-padding-xxxlarge;
+    padding-top: $section-padding-xxxlarge;
   }
-}
-
-.section--header {
-  padding: 0;
-}
-
-.section--footer {
-  padding: 0;
 }

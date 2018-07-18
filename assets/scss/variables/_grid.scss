@@ -14,3 +14,9 @@ $breakpoints-xxlarge: "only screen and (min-width: #{$size-xxlarge})";
 $breakpoints-xxxlarge: "only screen and (min-width: #{$size-xxxlarge})";
 
 // @media #{$breakpoints-large} {}
+
+$grid: 1400px;
+$grid-content: 600px;
+$convivences: 2rem;
+$gutter: 1rem;
+$row: $grid;
