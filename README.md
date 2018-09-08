@@ -2,7 +2,7 @@
 
 El objetivo es crear un starter kit para experimentar, algunas cosas que quiero ir actualizando (con paciencia, sin prisa):
 
-## Cambios genereales
+### Ideas 
 
 * Añadir un listado de `mixins` varios para automatizar cambios como el font-size/line-height de las tipografías (ajustable).
 * Correr [stylelint](https://stylelint.io/)
@@ -14,10 +14,6 @@ El objetivo es crear un starter kit para experimentar, algunas cosas que quiero 
 * Añadir footer
 * i18n translate
 
-## Módulos.. 
-
-WIP...
-
-## Créditos
+### Créditos
 
 Con mimo y tiempo por [gruncho](http://worldx3.com).
