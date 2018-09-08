@@ -1,38 +1,23 @@
 # 🌳 Style Tree
 
-El objetivo es crear un starter kit, algunas tareas pendientes:
+El objetivo es crear un starter kit para experimentar, algunas cosas que quiero ir actualizando (con paciencia, sin prisa):
 
 ## Cambios genereales
 
-* Añadir más funciones útiles en `mixins` 
+* Añadir un listado de `mixins` varios para automatizar cambios como el font-size/line-height de las tipografías (ajustable).
 * Correr [stylelint](https://stylelint.io/)
 * Dejar de compilar con SASS y hacerlo con [gulp-postcss](https://github.com/postcss/gulp-postcss)
-* Pasarlo a jekyll
+* Visualizar parte de los tokens (variables de color, tamaños, algunos componentes etc) en un panel con Jekyll.
+* Añadir CSSGRid.
+* Añadir varios componentes de formularios (input-text, error, textarea, select, button, file...)
 * Añadir header
 * Añadir footer
 * i18n translate
 
-## Módulos
+## Módulos.. 
 
-* Picture example
-- Ejemplos RWD
-- Prueba varias proporciones (1:1, 2:1, 4:2, 2:5...)
+WIP...
 
-* Añadir una base de SCSS para formularios
-- input-text
-- textarea
-- select
-- checkbox
-- button
+## Créditos
 
-* Añadir tarjetas de ejemplo
-
-* Añadir RWD del layout
-- Cómo funciona el RWD mobile first con varias tarjetas
-- Cómo funciona los paddings de los contenidos (usando el $gutter)
-
-etc..
-
-### Créditos
-
-Fotografías ..
+Con mimo y tiempo por [gruncho](http://worldx3.com).

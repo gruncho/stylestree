@@ -1,7 +1,7 @@
 $hero-title-font-family: $font-family-first;
 
 .hero {
-  @extend .grid;
+  @extend .layout;
 }
 
 .hero__thumb {

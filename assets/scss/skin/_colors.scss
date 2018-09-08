@@ -1,8 +1,9 @@
 $colors-color-white-border: 1px solid $color-ligth-gray;
-$colors-color-size: 250px;
+$colors-color-size-mobile: 150px;
+$colors-color-size-desktop: 250px;
 
 .colors {
-  @extend .grid-row;
+  @extend .layout-grid;
 }
 
 .colors__box {
@@ -10,8 +11,7 @@ $colors-color-size: 250px;
 }
 
 .colors__color {
-  height: $colors-color-size;
-  max-width: $colors-color-size;
+  height:$colors-color-size-mobile;
   width: 100%;
 }
 
@@ -41,5 +41,9 @@ $colors-color-size: 250px;
 @media #{$breakpoints-large} {
   .colors__box {
     @include column(3);
+  }
+
+  .colors__color {
+    height:$colors-color-size-desktop;
   }
 }

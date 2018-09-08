@@ -1,11 +1,6 @@
 .footer {
-  background: $color-black;
-  color: $color-white;
-  font-size: .75rem;
-  padding-bottom: 8rem;
-  padding-top: 8rem;
-} 
+  @extend .layout-grid;
 
-.footer__content {
-  @extend .row;
+  font-size: .85rem;
+  padding: 10rem 0;
 }

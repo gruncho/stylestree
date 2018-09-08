@@ -1,5 +1,5 @@
 .font {
-  @extend .grid-row;
+  @extend .layout-grid;
 }
 
 .font__box {
@@ -22,7 +22,6 @@
   font-size: 6rem;
   letter-spacing: 1rem;
 }
-
 
 .font__all {
   font-size: 1.25rem;

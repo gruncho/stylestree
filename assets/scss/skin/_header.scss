@@ -1,9 +1,8 @@
-.header {  
-  @extend .row;
-  
+.header {   
+  @extend .layout-grid;
+
   background: $color-white;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding: 4rem 0;
 }
 
 .header__title {

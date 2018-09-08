@@ -1,29 +1,29 @@
 $example-content-padding: 1.5rem;
+$example-text-background: #007FFF;
+$example-text-color: $color-white;
 
 .example {
-  @extend .row;
+  padding: 4rem 0;
 }
 
 .example__content {
-  @extend .grid;
+  @extend .layout-grid;
+}
 
-  padding-bottom: .5rem;
-  padding-top: .5rem;
-
-  *:nth-child(odd) {
-    background: #ccc;
-  }
-
-  *:nth-child(even) {
-    background: #999;
-  }
+.example__content {
+  margin-bottom: calc( #{$gutter} * 2 );
 
   * {
     font-size: 1rem;
-    padding-bottom: $example-content-padding;
-    padding-top: $example-content-padding;
+    padding: 2rem 0;
     text-align: center;
   }
+}
+
+.example__text {
+  background: $example-text-background;
+  color: $example-text-color;
+  padding: 1rem 0;
 }
 
 .example1 {

@@ -1,7 +1,7 @@
 $content-subtitle-font-family: $font-family-second;
 
 .content {
-  @extend .grid-row;
+  @extend .layout-grid;
 }
 
 .content__box {
