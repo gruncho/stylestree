@@ -1,31 +1,18 @@
-// Part of the pitcher github.com/gruncho/stylestree
-//
-// For the full copyright and license information, please view the LICENSE
-// file that was distributed with this source code.
-//
-// @author Alex M. Gorgal (@gruncho) <alex@worldx3.com>
-
 // http://chir.ag/projects/name-that-color/
 //
 // Use the above URL to obtain the name of the hexadecimals,
 // and please, try to order from higher hex value to lower
 // hex value.
+//
 
 // basic
 
 $color-white: #fff;
 $color-black: #000;
-$color-black: #000;
-$color-gold: #f4d300;
-$color-gray: rgba(255,255,255,.4);
+$color-gray: rgba(0,0,0,.4);
+$color-ligth-gray: rgba(0,0,0,.2);
 
 // corporative
 
-$color-robin-egg-blue: #00B8D1; // example corporative
-$color-science-blue: #005BD1; // example second
-
-// body
-
-$body-background: $color-white; 
-$color-coporative: $color-gold; // for example..
-$color-text: $color-black; // Black?
+$color-corporative: #33ff33;
+$color-gray-content: #444;

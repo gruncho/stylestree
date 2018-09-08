@@ -1,13 +1,23 @@
 # 🌳 Style Tree
 
-El objetivo es crear un starter kit, algunas tareas pendientes:
+El objetivo es crear un starter kit para experimentar, algunas cosas que quiero ir actualizando (con paciencia, sin prisa):
 
-* Añadir más funciones útiles en `mixins` 
-* Crear un grid con flexbox
+## Cambios genereales
+
+* Añadir un listado de `mixins` varios para automatizar cambios como el font-size/line-height de las tipografías (ajustable).
 * Correr [stylelint](https://stylelint.io/)
-* Añadir una base de SCSS para formularios
 * Dejar de compilar con SASS y hacerlo con [gulp-postcss](https://github.com/postcss/gulp-postcss)
-* Crear un mini site estático donde salgan resumidas fuentes, colores, tamaños..
-* Añadir recursos (tipografías, colores etc) de ejemplo
+* Visualizar parte de los tokens (variables de color, tamaños, algunos componentes etc) en un panel con Jekyll.
+* Añadir CSSGRid.
+* Añadir varios componentes de formularios (input-text, error, textarea, select, button, file...)
+* Añadir header
+* Añadir footer
+* i18n translate
 
-...
+## Módulos.. 
+
+WIP...
+
+## Créditos
+
+Con mimo y tiempo por [gruncho](http://worldx3.com).

@@ -1,0 +1,37 @@
+.font {
+  @extend .layout-grid;
+}
+
+.font__box {
+  @include column(4);
+}
+
+.font__box--first {
+  font-family: $font-family-first;
+}
+
+.font__box--second {
+  font-family: $font-family-second;
+}
+
+.font__box--third {
+  font-family: Times New Roman, sans-serif;
+}
+
+.font__abc {
+  font-size: 6rem;
+  letter-spacing: 1rem;
+}
+
+.font__all {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+
+  p {
+    padding-top: 1rem;
+  }
+}
+
+.font__upp {
+  text-transform: uppercase;
+}
