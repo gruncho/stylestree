@@ -15,11 +15,14 @@ body {
   font-weight: normal; 
   min-height: 100%;
 
+  word-break: break-word; 
+
   // revise 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
+b,
 strong {
   font-weight: bold; // revise typo
 }
