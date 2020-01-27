@@ -71,5 +71,5 @@ $example-text-color: $color-white;
 }
 
 .example12 {
-  @include column(12);
+  @include column(8);
 }
