@@ -14,6 +14,6 @@ El objetivo es crear un starter kit para experimentar, algunas cosas que quiero 
 * Añadir footer
 * i18n translate
 
-### Crédidos
+### Créditos
 
 Con mimo y tiempo por [gruncho](http://worldx3.com).
