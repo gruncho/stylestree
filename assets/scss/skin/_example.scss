@@ -26,6 +26,19 @@ $example-text-color: $color-white;
   padding: 1rem 0;
 }
 
+
+.example__content--centered {
+  justify-content: center;
+}
+
+.juan {
+  @include column(6);
+}
+
+.jano {
+  @include column(6);
+}
+
 .example1 {
   @include column(1);
 }
@@ -72,4 +85,13 @@ $example-text-color: $color-white;
 
 .example12 {
   @include column(8);
+}
+
+.thumb {
+  max-width: 500px;
+  margin: auto;
+}
+
+.thumb__picture {
+  @include aspect-ratio(2,2);
 }
