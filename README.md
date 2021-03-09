@@ -1,8 +1,8 @@
-## 🌳 Style Tree
+# 🌳 Style Tree
 
-El objetivo es crear un starter kit para experimentar, algunas cosas que quiero ir actualizando (con paciencia, sin prisa):
+El objetivo es crear un starter kit para experimentar.
 
-### Ideas
+### Ideas
 
 * Añadir un listado de `mixins` varios para automatizar cambios como el font-size/line-height de las tipografías (ajustable).
 * Correr [stylelint](https://stylelint.io/)
@@ -10,10 +10,8 @@ El objetivo es crear un starter kit para experimentar, algunas cosas que quiero 
 * Visualizar parte de los tokens (variables de color, tamaños, algunos componentes etc) en un panel con Jekyll.
 * Añadir CSSGRid.
 * Añadir varios componentes de formularios (input-text, error, textarea, select, button, file...)
-* Añadir header
-* Añadir footer
-* i18n translate
+* Añadir layouts
 
-### Créditos
+### Créditos
 
-Con mimo y tiempo por [gruncho](http://worldx3.com).
+Con mimo y tiempo por [gruncho](https://jano.cool).
