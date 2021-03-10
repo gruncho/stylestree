@@ -1,4 +1,4 @@
-// Breakpoints
+// Breakpoints mobile First
 
 $size-medium: 768px;
 $size-large: 1024px;
@@ -6,14 +6,14 @@ $size-xlarge: 1280px;
 $size-xxlarge: 1440px;
 $size-xxxlarge: 1680px;
 
-// Mobile first
+// Global parameter
 
-$media-type: min-width;
+$media-parameter: min-width;
 
 // @media #{$breakpoints-large} {}
 
-$breakpoints-medium: "only screen and (#{$media-type}: #{$size-medium})";
-$breakpoints-large: "only screen and (#{$media-type}: #{$size-large})";
-$breakpoints-xlarge: "only screen and (#{$media-type}: #{$size-xlarge})";
-$breakpoints-xxlarge: "only screen and (#{$media-type}: #{$size-xxlarge})";
-$breakpoints-xxxlarge: "only screen and (#{$media-type}: #{$size-xxxlarge})";
+$breakpoints-medium: "only screen and (#{$media-parameter}: #{$size-medium})";
+$breakpoints-large: "only screen and (#{$media-parameter}: #{$size-large})";
+$breakpoints-xlarge: "only screen and (#{$media-parameter}: #{$size-xlarge})";
+$breakpoints-xxlarge: "only screen and (#{$media-parameter}: #{$size-xxlarge})";
+$breakpoints-xxxlarge: "only screen and (#{$media-parameter}: #{$size-xxxlarge})";
