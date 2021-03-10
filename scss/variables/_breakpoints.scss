@@ -6,10 +6,14 @@ $size-xlarge: 1280px;
 $size-xxlarge: 1440px;
 $size-xxxlarge: 1680px;
 
+// Mobile first
+
+$media-type: min-width;
+
 // @media #{$breakpoints-large} {}
 
-$breakpoints-medium: "only screen and (min-width: #{$size-medium})";
-$breakpoints-large: "only screen and (min-width: #{$size-large})";
-$breakpoints-xlarge: "only screen and (min-width: #{$size-xlarge})";
-$breakpoints-xxlarge: "only screen and (min-width: #{$size-xxlarge})";
-$breakpoints-xxxlarge: "only screen and (min-width: #{$size-xxxlarge})";
+$breakpoints-medium: "only screen and (#{$media-type}: #{$size-medium})";
+$breakpoints-large: "only screen and (#{$media-type}: #{$size-large})";
+$breakpoints-xlarge: "only screen and (#{$media-type}: #{$size-xlarge})";
+$breakpoints-xxlarge: "only screen and (#{$media-type}: #{$size-xxlarge})";
+$breakpoints-xxxlarge: "only screen and (#{$media-type}: #{$size-xxxlarge})";
